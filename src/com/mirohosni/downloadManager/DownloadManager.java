@@ -12,7 +12,7 @@ for (int i=1;i<=5;i++){
         System.out.println("download completed");
     }
 
-    public static  void main(String[] args) {
+    public static  void main(String[] args) throws InterruptedException {
         Thread t=new Thread(new DownloadManager());
         t.start();
         t.join();
