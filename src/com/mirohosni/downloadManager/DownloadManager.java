@@ -4,8 +4,8 @@ package com.mirohosni.downloadManager;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class DownloadManager implements Runnable{
     private int fileId;
-    public DownloadManager(int fileId){
-        
+    public DownloadManager(){
+
     }
     @Override
     public void run() {
