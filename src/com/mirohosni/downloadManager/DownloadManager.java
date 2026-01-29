@@ -4,7 +4,7 @@ package com.mirohosni.downloadManager;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class DownloadManager {
 public static  void main(String[] args) {
-    
+        System.out.println("Hello world!");
 
 }
 
