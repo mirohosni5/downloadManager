@@ -5,7 +5,7 @@ package com.mirohosni.downloadManager;
 public class DownloadManager implements Runnable{
     @Override
     public void run() {
-
+for ()
     }
 
     public static  void main(String[] args) {
