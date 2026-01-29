@@ -5,10 +5,11 @@ package com.mirohosni.downloadManager;
 public class DownloadManager implements Runnable{
     @Override
     public void run() {
-        
+
     }
 
     public static  void main(String[] args) {
+        
         System.out.println("Hello world!");
 
 }
