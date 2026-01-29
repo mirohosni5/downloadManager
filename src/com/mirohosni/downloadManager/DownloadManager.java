@@ -9,7 +9,7 @@ for (int i=1;i<=5;i++){
     System.out.println("downloading "+i+" files");
 
 }
-
+        System.out.println("download completed");
     }
 
     public static  void main(String[] args) {
