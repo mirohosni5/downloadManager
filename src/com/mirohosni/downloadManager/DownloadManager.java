@@ -11,7 +11,7 @@ public class DownloadManager implements Runnable{
     public static  void main(String[] args) {
         Thread t=new Thread(new DownloadManager());
         t.start();
-        t.join()
+        t.join();
 
 }
 
