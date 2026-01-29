@@ -9,7 +9,7 @@ public class DownloadManager implements Runnable{
     }
 
     public static  void main(String[] args) {
-        Thread t=new System.out.println("Hello world!");
+        Thread t=new Thread 
 
 }
 
