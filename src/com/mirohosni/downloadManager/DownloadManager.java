@@ -10,7 +10,7 @@ public class DownloadManager implements Runnable{
 
     public static  void main(String[] args) {
         Thread t=new Thread(new (new DownloadManager());
-        t.strat()
+        t.start();
 
 }
 
