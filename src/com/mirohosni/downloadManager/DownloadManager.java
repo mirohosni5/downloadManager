@@ -16,7 +16,7 @@ for (int i=1;i<=5;i++){
         Thread t=new Thread(new DownloadManager());
         t.start();
         t.join();
-        System.out.println("downloading  files");
+        System.out.println("downloading  finished");
 
 
 }
