@@ -5,7 +5,7 @@ package com.mirohosni.downloadManager;
 public class DownloadManager implements Runnable{
     private int fileId;
     public DownloadManager(){
-       
+         this.fileId=fileId;
     }
     @Override
     public void run() {
