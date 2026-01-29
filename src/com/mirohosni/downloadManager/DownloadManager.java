@@ -3,7 +3,8 @@ package com.mirohosni.downloadManager;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class DownloadManager implements Runnable{
-    private int id
+    private int fileId;
+    
     @Override
     public void run() {
 for (int i=1;i<=5;i++){
